@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Paths */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Módulos */
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Node.js types */
+    "types": ["node"],
+
+    /* Outputs */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Strict mode */
+    "strict": true,
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Otras opciones útiles */
+    "isolatedModules": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
